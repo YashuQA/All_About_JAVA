@@ -1,11 +1,19 @@
 package N_JavaQuestions;
 
+import java.util.Scanner;
+
 public class swapingNumbers {
 
 	public static void main(String[] args) {
 		
-		int a = 10;
-		int b = 20;
+		int a;
+		int b;
+		
+		System.out.println("Enter the values :");
+		try(Scanner sc = new Scanner(System.in)){
+			a= sc.nextInt();
+			b=sc.nextInt();
+		}
 		
 		System.out.println("Before Swaping");
 		System.out.println("a = "+a);

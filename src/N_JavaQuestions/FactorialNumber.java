@@ -8,6 +8,7 @@ public class FactorialNumber {
 		
 		//!5 = 5*4*3*2*1 = 120
 		//!4 = 24
+		//!0 = 1 --->factorial of 0 is 1
 		int i;
 		int factorial = 1;
 		int number;

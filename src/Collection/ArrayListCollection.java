@@ -21,6 +21,7 @@ public class ArrayListCollection {
 		 * get(int,index) is the method to get any value from arrayList
 		 * for-each loop can be used with ArrayList and Collections
 		 * Objects will be printed in order
+		 * We can use for-loop, for-each loop , Iterator and iterator()
 		 * */
 	
 			//-------------------------- Normal Array---------------------------

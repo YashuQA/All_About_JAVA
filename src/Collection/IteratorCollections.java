@@ -5,7 +5,16 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class IteratorCollections {
-
+/*
+ * Iterator and iterator () are two different things -
+ * Iterator is an interface 
+ * iterator() is a method of Collections interface
+ * iterator() return type is Iterator<E> interface
+ * Iterator interface has two method - hasNext() and next()
+ * We can access iterator() method from the object of ArrayList - coz ArrayList 
+ * 											is the grand child of Collections interface
+ * ArrayList don't have iterator method it can be inherited from the collections interface.
+ * iterator() and Iterator can be applied on HashSet class also.*/
 	public static void main(String[] args) {
 		
 		ArrayList<Integer> alist = new ArrayList<Integer>();

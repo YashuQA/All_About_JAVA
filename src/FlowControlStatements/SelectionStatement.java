@@ -31,7 +31,7 @@ public class SelectionStatement {
 		
 		//-------------switch---------------------
 		int switchCondition=5;
-		
+		 
 		switch(switchCondition) {
 		
 		case 0:

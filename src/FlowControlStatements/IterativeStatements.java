@@ -20,6 +20,10 @@ public class IterativeStatements {
 			System.out.println("Inside while loop - i is:"+i);
 			i++; //This will increment the value of i by 1 
 		}
+		
+		for(int a=0;a<5;a++) {
+			System.out.println("Inside for loop");
+		}
 
 	}
 

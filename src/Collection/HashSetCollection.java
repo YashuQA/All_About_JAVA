@@ -9,7 +9,7 @@ public class HashSetCollection {
 	 *Predefined class in collections framework
 	 *HashSet Parent Interface is Set
 	 *Objects are printed in random order
-	 *No indexing in hashset
+	 *No indexing in hashset so repeating is not allowed
 	 *No for-loop ,only for-each will work as there is no indexing concept
 	 *No get(index) method
 	 */
